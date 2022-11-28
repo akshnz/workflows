@@ -1,0 +1,15 @@
+on:
+  push:
+    branches: [main]
+    paths: [wiki/**]
+jobs:
+  Copy the wiki/ folder to the GitHub Wiki:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: rm -f wiki/README.md
+      - uses: impresscms-dev/strip-markdown-extensions-from-links-action@v0.3
+        with:
+          path: wiki
+      - uses: stefanzweifel/git-auto-commit-action@v4
+      - run: git push -f https://github.com/$GITHUB_REPOSITORY.wiki.git $(git subtree split -P wiki):master
