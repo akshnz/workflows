@@ -23,7 +23,5 @@
 
 ### List of all actions
 
-- [Node.js build & test](node-build-test.yml)
-- [Create Issues from TODO comments](issues-todo-comments.yml)
-- [Publish to NPM every Release](publish-npm-release.yml)
-- [Sync GitHub Wiki and `wiki/`](sync-gh-wiki-wiki.yml)
+- [Node.js: Build & test each commit](src/Node.js/Build%20&%20test%20each%20commit.yml)
+
