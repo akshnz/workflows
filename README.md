@@ -1,15 +1,14 @@
-# Repo Actions
+# [Awesome](https://awesome.re/) GitHub Actions files
 
-📋 Collection of handy GitHub Actions
+📋 Curated collection of useful GitHub Actions ready for copy & pasting
 
 <div align="center">
 
-![image](https://user-images.githubusercontent.com/61068799/204118515-fea159e9-e2f3-4541-a073-02fb97afbdea.png)
+![](https://user-images.githubusercontent.com/61068799/204187787-fdbb8f81-88fb-4f78-a036-acec2e3b3b99.png)
 
 </div>
 
 👷‍♂️ Works with GitHub Actions \
-🐳 Easy to use with `devcontainer.json` \
 ©️ No license header or attribution needed \
 ✏️ Ready for you to customize
 
@@ -17,8 +16,10 @@
 
 ## Usage
 
-Just copy-and-paste one of these GitHub Actions into your own `.github/workflows/*.yml` files and
-enjoy the painless ease!
+1. Select a GitHub Action from this repo you want for your own repo
+2. Copy the contents of the `.yml` file
+3. Paste it into a new `.github/workflows/*.yml` file in your own repo
+4. Profit!
 
 ### List of all actions
 
