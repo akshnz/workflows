@@ -25,3 +25,9 @@
 
 ### List of all actionss
 
+- [devcontainers: Build & test](src/devcontainers/Build%20%26%20test.yml)
+- [Node.js: Build & test](src/Node.js/Build%20%26%20test.yml)
+- [Node.js: Publish to npm](src/Node.js/Publish%20to%20npm.yml)
+- [Publish the dev wiki](src/Publish%20the%20dev%20wiki.yml)
+- [Publish the user docs](src/Publish%20the%20user%20docs.yml)
+- [TODOs to Issues](src/TODOs%20to%20Issues.yml)
