@@ -1,0 +1,14 @@
+on:
+  release:
+    types: [created]
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: devcontainers/ci@v0.2
+        with:
+          imageName: ghcr.io/${{ github.repository }}-devcontainer
+          cacheFrom: ghcr.io/${{ github.repository }}-devcontainer
+          runCmd: npm ci && npm publish --access public
+          env: NODE_AUTH_TOKEN=${{ secrets.NPM_TOKEN }}
