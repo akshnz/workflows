@@ -21,7 +21,7 @@ jobs:
         with:
           imageName: ghcr.io/${{ github.repository }}-devcontainer
           cacheFrom: ghcr.io/${{ github.repository }}-devcontainer
-          runCmd: tools/build.sh
+          runCmd: bikeshed src/index.bs dist/index.html
       - uses: actions/configure-pages@v2
       - uses: actions/upload-pages-artifact@v1
         with:
