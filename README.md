@@ -9,7 +9,6 @@
 <!--prettier-ignore-->
 **[Overview](https://github.com/jcbhmr/github-workflows#readme)**
 | [Contribute](https://github.com/jcbhmr/github-workflows/blob/main/CONTRIBUTING.md)
-| [Wiki](https://github.com/jcbhmr/github-workflows/wiki)
 
 </div>
 
