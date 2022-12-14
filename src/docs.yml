@@ -1,8 +1,7 @@
 on:
   push:
     branches: [main]
-    paths: [docs/**]
-  workflow_dispatch:
+    paths: [docs/**, .github/workflows/docs.yml]
 concurrency:
   group: docs
   cancel-in-progress: true
@@ -16,8 +15,6 @@ jobs:
       - uses: actions/checkout@v3
       - uses: devcontainers/ci@v0.2
         with:
-          imageName: ghcr.io/${{ github.repository }}-devcontainer
-          cacheFrom: ghcr.io/${{ github.repository }}-devcontainer
           runCmd: npm ci -w docs && npm pack -w docs --dry-run
       - uses: actions/configure-pages@v2
       - uses: actions/upload-pages-artifact@v1
