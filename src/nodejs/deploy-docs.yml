@@ -1,7 +1,7 @@
 on:
   push:
     branches: [main]
-    paths: [docs/**, .github/workflows/docs.yml]
+    paths: [docs/**, .github/workflows/deploy-docs.yml]
 concurrency:
   group: docs
   cancel-in-progress: true

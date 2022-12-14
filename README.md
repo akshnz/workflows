@@ -31,17 +31,16 @@
 
 ### List of workflows
 
-- **[`deploy.yml`]:** Deploys a Bikeshed specification to GitHub Pages
-- **[`docs.yml`]:** Deploys the `docs/` npm workspace project to GitHub Pages
-- **[`publish.yml`]:** Publishes an npm package to [npmjs.com]
-- **[`test.yml`]:** Runs tests for an npm package
-- **[`wiki.yml`]:** Publishes the `wiki/` subfolder to the GitHub wiki
+- **[`nodejs/deploy-docs.yml`]:** Deploys the `docs/` npm workspace to GitHub Pages
+- **[`nodejs/publish.yml`]:** Publishes an npm package to [npmjs.com]
+- **[`nodejs/test.yml`]:** Runs tests for an npm package
+- **[`spec/deploy.yml`]:** Deploys a Bikeshed specification to GitHub Pages
+- **[`deploy-wiki.yml`]:** Publishes the `wiki/` subfolder to the GitHub wiki
 
-[`deploy.yml`]: src/deploy.yml
-[`docs.yml`]: src/docs.yml
-[`publish.yml`]: src/publish.yml
-[`test.yml`]: src/test.yml
-[`todo.yml`]: src/todo.yml
-[`wiki.yml`]: src/wiki.yml
+[`nodejs/deploy-docs.yml`]: src/nodejs/deploy-docs.yml
+[`nodejs/publish.yml`]: src/nodejs/publish.yml
+[`nodejs/test.yml`]: src/nodejs/test.yml
+[`spec/deploy.yml`]: src/spec/deploy.yml
+[`deploy-wiki.yml`]: src/deploy-wiki.yml
 [we welcome contributions]: CONTRIBUTING.md
 [npmjs.com]: https://www.npmjs.com/

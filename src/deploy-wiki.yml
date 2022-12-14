@@ -1,7 +1,7 @@
 on:
   push:
     branches: [main]
-    paths: [wiki/**, .github/workflows/wiki.yml]
+    paths: [wiki/**, .github/workflows/deploy-wiki.yml]
 concurrency:
   group: wiki
   cancel-in-progress: true
