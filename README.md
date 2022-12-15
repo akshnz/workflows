@@ -4,7 +4,7 @@
 
 <div align="center">
 
-![](https://i.imgur.com/lToQ3b4.png)
+![]()
 
 <!--prettier-ignore-->
 **[Overview](https://github.com/jcbhmr/github-workflows#readme)**
