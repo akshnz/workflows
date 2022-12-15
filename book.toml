@@ -1,0 +1,10 @@
+[book]
+authors = ["Jacob Hummer"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Workflows for GitHub Actions"
+
+[output.html]
+git-repository-url = "https://github.com/akshnz/workflows#readme"
+edit-url-template = "https://github.com/akshnz/workflows/edit/main/docs/{path}"

@@ -11,15 +11,14 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    permissions: read-all|write-all
     steps:
       - uses: actions/checkout@v3
       - uses: devcontainers/ci@v0.2
         with:
-          runCmd: mkdir -vp dist && bikeshed spec src/index.bs dist/index.html
+          runCmd: mdbook build
       - uses: actions/configure-pages@v2
       - uses: actions/upload-pages-artifact@v1
         with:
-          path: dist
+          path: book
       - uses: actions/deploy-pages@v1
         id: deployment
