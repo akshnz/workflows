@@ -1,6 +1,9 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal",
-  "postCreateCommand": "curl -sSL https://github.com/rust-lang/mdBook/releases/download/v0.4.24/mdbook-v0.4.24-x86_64-unknown-linux-gnu.tar.gz | tar -xz -C /usr/local/bin && npm i -g prettier",
+  "image": "mcr.microsoft.com/devcontainers/rust",
+  "features": {
+    "ghcr.io/devcontainers/features/node": {}
+  },
+  "postCreateCommand": "cargo install mdbook && npm i -g prettier",
   "customizations": {
     "vscode": {
       "extensions": ["esbenp.prettier-vscode"]
