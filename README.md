@@ -1,46 +1,53 @@
-# GitHub workflows
+<div align="center">
+
+**🚧 Under construction! 👷‍♂️**
+
+</div>
+
+# Workflows for GitHub Actions
 
 📋 Curated collection of useful GitHub workflows files
 
 <div align="center">
 
-![]()
+![](https://placekitten.com/600/400)
 
 <!--prettier-ignore-->
-**[Overview](https://github.com/jcbhmr/github-workflows#readme)**
-| [Contribute](https://github.com/jcbhmr/github-workflows/blob/main/CONTRIBUTING.md)
+**[Overview](https://github.com/akshnz/workflows#readme)**
+| [User docs](https://akshnz.github.io/workflows/)
+| [Contribute](https://github.com/akshnz/workflows/blob/main/CONTRIBUTING.md)
 
 </div>
 
-👷‍♂️ Premade for 80% of usecases \
-©️ No license header or attribution needed \
-✏️ Ready for customization
+<!-- TODO: Add emoji bulleted list of features -->
 
-🤝 [We welcome contributions]! Even if you just have an idea, we want to hear from you!
+[🤝 We welcome contributions!] Even if you just have an idea, we want to hear
+from you!
 
 ## Usage
 
 ![GitHub Actions](https://img.shields.io/static/v1?style=for-the-badge&message=GitHub+Actions&color=2088FF&logo=GitHub+Actions&logoColor=FFFFFF&label=)
 
-1. Select a `src/$NAME.yml` workflow file from this repo
-2. Copy the entire contents of the file
-3. Create a new `.github/workflows/$NAME.yml` file in your own repo
-4. Paste the contents into your new file
-5. Commit & push it to GitHub
-6. Profit! 🎉
+<!-- TODO: Add usage blurb -->
 
-### List of workflows
+## Development
 
-- **[`nodejs/deploy-docs.yml`]:** Deploys the `docs/` npm workspace to GitHub Pages
-- **[`nodejs/publish.yml`]:** Publishes an npm package to [npmjs.com]
-- **[`nodejs/test.yml`]:** Runs tests for an npm package
-- **[`spec/deploy.yml`]:** Deploys a Bikeshed specification to GitHub Pages
-- **[`deploy-wiki.yml`]:** Publishes the `wiki/` subfolder to the GitHub wiki
+This project uses [mdBook] to turn Markdown pages into a fancy website.
 
-[`nodejs/deploy-docs.yml`]: src/nodejs/deploy-docs.yml
-[`nodejs/publish.yml`]: src/nodejs/publish.yml
-[`nodejs/test.yml`]: src/nodejs/test.yml
-[`spec/deploy.yml`]: src/spec/deploy.yml
-[`deploy-wiki.yml`]: src/deploy-wiki.yml
-[we welcome contributions]: CONTRIBUTING.md
-[npmjs.com]: https://www.npmjs.com/
+⚠️ GitHub Codespaces doesn't work with the IPv6 `[::1]` address that
+`mdbook serve` uses by default. You'll need to add a `-n 0.0.0.0` IPv4 hostname
+flag to get it to work with the HTTP Preview.
+
+```sh
+mdbook serve -n 0.0.0.0
+```
+
+🎨 To lint the project, we use [Prettier].
+
+```sh
+prettier -w . --ignore-file=.gitignore
+```
+
+[🤝 we welcome contributions!]: CONTRIBUTING.md
+[mdbook]: https://rust-lang.github.io/mdBook/
+[prettier]: https://prettier.io/
