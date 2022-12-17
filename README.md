@@ -14,7 +14,7 @@
 
 <!--prettier-ignore-->
 **[Overview](https://github.com/akshnz/workflows#readme)**
-| [User docs](https://akshnz.github.io/workflows/)
+| [Website](https://akshnz.github.io/workflows/)
 | [Contribute](https://github.com/akshnz/workflows/blob/main/CONTRIBUTING.md)
 
 </div>
