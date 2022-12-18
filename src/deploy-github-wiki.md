@@ -1,4 +1,4 @@
-# Continuously deploy `wiki/` folder to GitHub wiki
+# Continuously deploy to GitHub wiki
 
 ## Why would you want this?
 
