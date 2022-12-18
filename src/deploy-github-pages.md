@@ -58,4 +58,54 @@ jobs:
 
 🐳 This workflow also uses [devcontainers] to configure the build environment.
 
+## Bikeshed technical report generator GitHub Pages deployment workflow
+
+Bikeshed is a static site generator specifically designed for creating
+specification documents. It is written in Python and uses the Pandoc document
+converter to generate HTML, PDF, and other formats from simple text files
+written in Markdown or AsciiDoc. Bikeshed is used by many organizations and
+standards bodies to create technical specifications, such as the HTML
+specification for the World Wide Web Consortium (W3C).
+
+To deploy a static site generated with Bikeshed to GitHub Pages, you can use the
+following workflow:
+
+```yml
+on:
+  push:
+    branches: [main]
+    paths: [docs/**, .github/workflows/deploy.yml]
+jobs:
+  pages:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    concurrency:
+      group: pages
+      cancel-in-progress: true
+    permissions: write-all
+    steps:
+      - uses: actions/checkout@v3
+      - uses: devcontainers/ci@v0.2
+        with:
+          runCmd: mkdir -vp dist && bikeshed spec src/index.bs dist/index.html
+      - uses: actions/configure-pages@v2
+      - uses: actions/upload-pages-artifact@v1
+        with:
+          path: dist
+      - uses: actions/deploy-pages@v1
+        id: deployment
+```
+
+This workflow will run on the `main` branch whenever a push event occurs and the
+`docs` directory or the `deploy.yml` file in the `.github/workflows` directory
+is modified. It uses the `devcontainers/ci` action to set up the build
+environment and runs the Bikeshed tool to generate the HTML specification file
+from the `src/index.bs` source file. The resulting HTML file is then uploaded to
+the `dist` directory, which is configured as the source for GitHub Pages, and
+the pages are deployed. The `url` of the deployed pages is stored in the
+`outputs` field of the `deployment` step, which can be accessed using the
+`${{ steps.deployment.outputs.page_url }}` variable.
+
 [devcontainers]: https://code.visualstudio.com/docs/devcontainers/tutorial
