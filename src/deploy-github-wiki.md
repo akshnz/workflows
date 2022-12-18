@@ -11,6 +11,11 @@ In [@jcbhmr]'s [conventions for GitHub projects], he recommends using the
 4. What code organization patterns are used
 5. Reasoning behind design decisions
 
+Using Git source control inside your main code repository also allows you to use
+actual Pull Requests for documentation changes instead of using a `master`-only
+wiki-specific Git remote. It just makes it easier when the documentation is in
+the main repo instead of a completely disconnected entity.
+
 ```yml
 on:
   push:
