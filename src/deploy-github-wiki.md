@@ -32,7 +32,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v3
-      - uses: jcbhmr/deploy-wiki@main
+      - uses: akshnz/deploy-wiki@main
         id: deployment
 ```
 
