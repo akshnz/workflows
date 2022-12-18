@@ -1,5 +1,5 @@
 <div align="center">
 
-![](https://placekitten.com/600/400)
+![](https://source.unsplash.com/random/600x400)
 
 </div>
