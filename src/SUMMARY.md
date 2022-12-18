@@ -1,8 +1,8 @@
 [Introduction](./README.md)
 
+- [Continuously deploy `wiki/` folder to GitHub wiki](./deploy-github-wiki.md)
 - [Node.js](./nodejs/README.md)
-  - [Continuously deploy to GitHub wiki](./nodejs/deploy-github-wiki.md)
-  - [Continuously deploy to GitHub Pages](./nodejs/deploy-github-pages.md)
+  - [Continuously deploy npm project to GitHub Pages](./nodejs/deploy-github-pages.md)
   - [Publish to npm on new releases](./nodejs/publish-npm.md)
 - [devcontainers](./devcontainers/README.md)
   - [devcontainer features](./devcontainers/features/README.md)
