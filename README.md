@@ -1,53 +1,35 @@
-<div align="center">
-
-**🚧 Under construction! 👷‍♂️**
-
-</div>
-
-# Workflows for GitHub Actions
+# Awesome workflows for GitHub Actions
 
 📋 Curated collection of useful GitHub workflows files
 
 <div align="center">
 
-![](https://placekitten.com/600/400)
+![](https://i.imgur.com/iPT96yP.gif)
 
 <!--prettier-ignore-->
-**[Overview](https://github.com/akshnz/workflows#readme)**
-| [Website](https://akshnz.github.io/workflows/)
-| [Contribute](https://github.com/akshnz/workflows/blob/main/CONTRIBUTING.md)
+**[Overview](https://github.com/jcbhmr/awesome-workflows#readme)**
+| [Contribute](https://github.com/jcbhmr/awesome-workflows/blob/main/CONTRIBUTING.md)
+| [<img alt="Awesome" src="https://awesome.re/badge-flat.svg" valign="bottom" />](https://awesome.re)
 
 </div>
 
-<!-- TODO: Add emoji bulleted list of features -->
+🥇 Only the most awesome \
+✅ Covers 80% of use cases \
+👨‍👩‍👧‍👦 Community supported
 
-[🤝 We welcome contributions!] Even if you just have an idea, we want to hear
-from you!
+[![Add your workflow to this list](https://img.shields.io/static/v1?style=for-the-badge&message=Add+your+workflow+to+this+list&color=C70D2C&logo=Cliqz&logoColor=FFFFFF&label=)](CONTRIBUTING.md)
 
-## Usage
+## General
 
-![GitHub Actions](https://img.shields.io/static/v1?style=for-the-badge&message=GitHub+Actions&color=2088FF&logo=GitHub+Actions&logoColor=FFFFFF&label=)
+- **[Publish wiki folder to GitHub wiki]():** Will mirror the `wiki/` folder to the repo's GitHub wiki
 
-<!-- TODO: Add usage blurb -->
+## Node.js
 
-## Development
+- **[Publish to npm]():** Runs `npm publish` on every new GitHub Release
+- **[Publish to GitHub Packages]():** Runs `npm publish` (but targeting GitHub Packages) on every new GitHub Release
+- **[Deploy static site]():** Runs `npm pack --dry-run` and pushes the `dist/` folder to GitHub Pages
 
-This project uses [mdBook] to turn Markdown pages into a fancy website.
+## Devcontainers
 
-⚠️ GitHub Codespaces doesn't work with the IPv6 `[::1]` address that
-`mdbook serve` uses by default. You'll need to add a `-n 0.0.0.0` IPv4 hostname
-flag to get it to work with the HTTP Preview.
-
-```sh
-mdbook serve -n 0.0.0.0
-```
-
-🎨 To lint the project, we use [Prettier].
-
-```sh
-prettier -w . --ignore-file=.gitignore
-```
-
-[🤝 we welcome contributions!]: CONTRIBUTING.md
-[mdbook]: https://rust-lang.github.io/mdBook/
-[prettier]: https://prettier.io/
+- **[Publish features]():** On every push to `main` it publishes all `src/*` packages to the GitHub Container Registry
+-
