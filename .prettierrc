@@ -1,8 +1,1 @@
-{
-  "overrides": [
-    {
-      "files": "README.md",
-      "options": { "proseWrap": "never" }
-    }
-  ]
-}
+{ "proseWrap": "never" }
