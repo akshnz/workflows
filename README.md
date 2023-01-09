@@ -1,6 +1,6 @@
 # Awesome workflows for GitHub Actions
 
-📋 Curated collection of useful GitHub workflows files
+🥇 Only the most awesome workflows for GitHub Actions
 
 <div align="center">
 
@@ -12,10 +12,6 @@
 | [<img alt="Awesome" src="https://awesome.re/badge-flat.svg" valign="bottom" />](https://awesome.re)
 
 </div>
-
-🥇 Only the most awesome \
-✅ Covers 80% of use cases \
-👨‍👩‍👧‍👦 Community supported
 
 [![Add your workflow to this list](https://img.shields.io/static/v1?style=for-the-badge&message=Add+your+workflow+to+this+list&color=C70D2C&logo=Cliqz&logoColor=FFFFFF&label=)](CONTRIBUTING.md)
 
