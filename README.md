@@ -23,7 +23,6 @@
 
 ## CI
 
-- properties
 - ada.yml
 - android.yml
 - ant.yml
@@ -81,7 +80,6 @@
 
 ## Deployments
 
-- properties
 - alibabacloud.yml
 - aws.yml
 - azure-container-webapp.yml
@@ -112,7 +110,6 @@
 
 ## Automation
 
-- properties
 - greetings.yml
 - label.yml
 - manual.yml
@@ -120,8 +117,6 @@
 
 ## Code scanning
 
-- properties
-- README.md
 - anchore-syft.yml
 - anchore.yml
 - apisec-scan.yml
@@ -188,7 +183,6 @@
 
 ## Pages
 
-- properties
 - astro.yml
 - gatsby.yml
 - hugo.yml
