@@ -23,8 +23,8 @@
 
 &mdash; _[Creating starter workflows for your organization]_
 
-🚀 You can use these awesome workflow templates via copy-and-paste, or by adding
-them to your user (or your organization) .github repository.
+💡 Pro tip: You can add these workflow templates to your `.github` repository
+for easier instantiation.
 
 ---
 
@@ -213,5 +213,5 @@ them to your user (or your organization) .github repository.
 -->
 
 <!-- prettier-ignore-start -->
-[Creating starter workflows for your organization]: https://docs.github.com/en/actions/using-workflows/creating-starter-workflows-for-your-organization
+[creating starter workflows for your organization]: https://docs.github.com/en/actions/using-workflows/creating-starter-workflows-for-your-organization
 <!-- prettier-ignore-end -->
