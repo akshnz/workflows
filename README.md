@@ -21,13 +21,6 @@
 > saves time, it promotes consistency and best practice across your
 > organization.
 
-&mdash; _[Creating starter workflows for your organization]_
-
-💡 Pro tip: You can add these workflow templates to your user/.github or
-org/.github repository for easier instantiation.
-
----
-
 ## CI
 
 - properties
@@ -211,7 +204,3 @@ org/.github repository for easier instantiation.
 - [Deploy static site]()
 - [Publish features]()
 -->
-
-<!-- prettier-ignore-start -->
-[creating starter workflows for your organization]: https://docs.github.com/en/actions/using-workflows/creating-starter-workflows-for-your-organization
-<!-- prettier-ignore-end -->
