@@ -1,4 +1,4 @@
-# Awesome workflows for GitHub Actions
+# Awesome GitHub Actions workflow templates
 
 🥇 Only the most awesome workflows for GitHub Actions
 
