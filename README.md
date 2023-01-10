@@ -23,8 +23,8 @@
 
 &mdash; _[Creating starter workflows for your organization]_
 
-💡 Pro tip: You can add these workflow templates to your `.github` repository
-for easier instantiation.
+💡 Pro tip: You can add these workflow templates to your user/.github or
+org/.github repository for easier instantiation.
 
 ---
 
