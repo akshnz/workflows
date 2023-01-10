@@ -7,17 +7,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        _[Automated by GitHub Actions]_
-
         Make sure that your workflow has a descriptive name. Things like "Deploy
         to GitHub Pages using Hugo" or "Respond to /help commands in GitHub
         Issues" are good titles.
-
-        All you need to do is provide a general link (raw.githubusercontent.com
-        or github.com) to your workflow file, and we'll deduce the name and URL
-        from that. The @github-actions bot will respond with any errors.
-
-        [automated by GitHub Actions]: https://github.dev/jcbhmr/awesome-workflow-templates/blob/main/CONTRIBUTING.md#automation
   - type: input
     id: link-to-workflow-file
     attributes:
