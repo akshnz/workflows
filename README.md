@@ -23,7 +23,7 @@
 
 📚 Further reading: [Creating starter workflows for your organization]
 
-[![Add your workflow to this list](https://img.shields.io/static/v1?style=for-the-badge&message=Add+your+workflow+to+this+list&color=C70D2C&logo=Cliqz&logoColor=FFFFFF&label=)](CONTRIBUTING.md)
+[![Add your workflow to this list](https://img.shields.io/static/v1?style=for-the-badge&message=Add+your+workflow+to+this+list&color=C70D2C&label=)](CONTRIBUTING.md)
 
 - [Publish wiki/ to GitHub wiki](https://github.com/jcbhmr/.github/blob/main/workflow-templates/publish-wiki-to-github-wiki.yml)
 
